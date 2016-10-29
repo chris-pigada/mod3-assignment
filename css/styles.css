@@ -1,0 +1,74 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #fff;
+	font-family: 'Rubik', sans-serif;
+}
+
+#header-nav{
+	background-color: #999999;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 15px;
+}
+.navbar-brand h1{
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Playfair Display', serif;
+	color: #000;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .90;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none; 
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+#menu-tile {
+	color: #000;
+	margin-bottom: 50px;
+}
+
+.paragrapgh-tile{
+	background-color: #999999;
+	position: absolute;
+	padding: 15px;
+	margin: 0 auto 15px;
+}
+.paragrapgh-tile div{
+	color: #000;
+	font-weight: bold;
+	margin-bottom: -15px;
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+}
+.paragrapgh-tile p{
+	width: 100%;
+	color: #000;
+	font-size: .9em;
+	font-family: Helvetica, serif;
+}
+
+@media (min-width: 768px) (max-width: 992px){
+
+}
+@media (max-width: 767px){
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	.paragrapgh-tile{
+		width: 80%;
+		margin:0 30px;
+	}
+
+}
